@@ -1,0 +1,13 @@
+graph { 
+		1 -- b; 
+		b -- c; 
+		1 -- c; 
+		d -- c; 
+		e -- c; 
+		e -- 1; 
+		"1" [shape=circle, style=filled, fillcolor=red]
+  		"b" [shape=circle, style=filled, fillcolor=green]
+  		"c" [shape=circle, style=filled, fillcolor=purple]
+  		"d" [shape=circle, style=filled, fillcolor=blue]
+  		"e" [shape=circle, style=filled,color="#FFFFFF"]
+	}

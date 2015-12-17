@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4FDF5A01C1DC3E1002E288A /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4FDF59F1C1DC3E1002E288A /* ResourcePath.mm */; };
+		F4FDF5A31C1DC3E1002E288A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FDF5A21C1DC3E1002E288A /* main.cpp */; };
+		F4FDF5A61C1DC3E1002E288A /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5A51C1DC3E1002E288A /* cute_image.jpg */; };
+		F4FDF5A81C1DC3E1002E288A /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5A71C1DC3E1002E288A /* nice_music.ogg */; };
+		F4FDF5AA1C1DC3E1002E288A /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5A91C1DC3E1002E288A /* sansation.ttf */; };
+		F4FDF5AC1C1DC3E1002E288A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5AB1C1DC3E1002E288A /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4FDF59A1C1DC3E1002E288A /* Graph Coloring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graph Coloring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FDF59E1C1DC3E1002E288A /* Graph Coloring-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graph Coloring-Info.plist"; sourceTree = "<group>"; };
+		F4FDF59F1C1DC3E1002E288A /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		F4FDF5A11C1DC3E1002E288A /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		F4FDF5A21C1DC3E1002E288A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4FDF5A51C1DC3E1002E288A /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		F4FDF5A71C1DC3E1002E288A /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		F4FDF5A91C1DC3E1002E288A /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		F4FDF5AB1C1DC3E1002E288A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F4FDF5B21C1DC5F7002E288A /* Chromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chromosome.h; sourceTree = "<group>"; };
+		F4FDF5B31C1DC5F7002E288A /* Evolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evolution.h; sourceTree = "<group>"; };
+		F4FDF5B41C1DC62D002E288A /* GraphColoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphColoring.h; sourceTree = "<group>"; };
+		F4FDF5B51C1E00D9002E288A /* Visualisation Variables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Visualisation Variables.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4FDF5961C1DC3E1002E288A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4FDF5901C1DC3E1002E288A = {
+			isa = PBXGroup;
+			children = (
+				F4FDF59C1C1DC3E1002E288A /* Graph Coloring */,
+				F4FDF59B1C1DC3E1002E288A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4FDF59B1C1DC3E1002E288A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDF59A1C1DC3E1002E288A /* Graph Coloring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FDF59C1C1DC3E1002E288A /* Graph Coloring */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDF5B51C1E00D9002E288A /* Visualisation Variables.h */,
+				F4FDF5B21C1DC5F7002E288A /* Chromosome.h */,
+				F4FDF5B31C1DC5F7002E288A /* Evolution.h */,
+				F4FDF5B41C1DC62D002E288A /* GraphColoring.h */,
+				F4FDF59F1C1DC3E1002E288A /* ResourcePath.mm */,
+				F4FDF5A11C1DC3E1002E288A /* ResourcePath.hpp */,
+				F4FDF5A21C1DC3E1002E288A /* main.cpp */,
+				F4FDF5A41C1DC3E1002E288A /* Resources */,
+				F4FDF59D1C1DC3E1002E288A /* Supporting Files */,
+			);
+			path = "Graph Coloring";
+			sourceTree = "<group>";
+		};
+		F4FDF59D1C1DC3E1002E288A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDF59E1C1DC3E1002E288A /* Graph Coloring-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4FDF5A41C1DC3E1002E288A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDF5A51C1DC3E1002E288A /* cute_image.jpg */,
+				F4FDF5A71C1DC3E1002E288A /* nice_music.ogg */,
+				F4FDF5A91C1DC3E1002E288A /* sansation.ttf */,
+				F4FDF5AB1C1DC3E1002E288A /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4FDF5991C1DC3E1002E288A /* Graph Coloring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FDF5AF1C1DC3E1002E288A /* Build configuration list for PBXNativeTarget "Graph Coloring" */;
+			buildPhases = (
+				F4FDF5951C1DC3E1002E288A /* Sources */,
+				F4FDF5961C1DC3E1002E288A /* Frameworks */,
+				F4FDF5971C1DC3E1002E288A /* Resources */,
+				F4FDF5981C1DC3E1002E288A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Graph Coloring";
+			productName = "Graph Coloring";
+			productReference = F4FDF59A1C1DC3E1002E288A /* Graph Coloring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4FDF5911C1DC3E1002E288A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AUC;
+				TargetAttributes = {
+					F4FDF5991C1DC3E1002E288A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F4FDF5941C1DC3E1002E288A /* Build configuration list for PBXProject "Graph Coloring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4FDF5901C1DC3E1002E288A;
+			productRefGroup = F4FDF59B1C1DC3E1002E288A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4FDF5991C1DC3E1002E288A /* Graph Coloring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4FDF5971C1DC3E1002E288A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FDF5AC1C1DC3E1002E288A /* icon.png in Resources */,
+				F4FDF5AA1C1DC3E1002E288A /* sansation.ttf in Resources */,
+				F4FDF5A81C1DC3E1002E288A /* nice_music.ogg in Resources */,
+				F4FDF5A61C1DC3E1002E288A /* cute_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4FDF5981C1DC3E1002E288A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"/Library/Frameworks/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"/usr/local/lib/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"/usr/local/lib/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4FDF5951C1DC3E1002E288A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FDF5A31C1DC3E1002E288A /* main.cpp in Sources */,
+				F4FDF5A01C1DC3E1002E288A /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4FDF5AD1C1DC3E1002E288A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		F4FDF5AE1C1DC3E1002E288A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		F4FDF5B01C1DC3E1002E288A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Graph Coloring/Graph Coloring-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4FDF5B11C1DC3E1002E288A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Graph Coloring/Graph Coloring-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4FDF5941C1DC3E1002E288A /* Build configuration list for PBXProject "Graph Coloring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FDF5AD1C1DC3E1002E288A /* Debug */,
+				F4FDF5AE1C1DC3E1002E288A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FDF5AF1C1DC3E1002E288A /* Build configuration list for PBXNativeTarget "Graph Coloring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FDF5B01C1DC3E1002E288A /* Debug */,
+				F4FDF5B11C1DC3E1002E288A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4FDF5911C1DC3E1002E288A /* Project object */;
+}
