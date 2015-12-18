@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F44EA9D81C23868D0032FF44 /* Chromosome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44EA9D11C2379910032FF44 /* Chromosome.cpp */; };
+		F44EA9D91C23869C0032FF44 /* GraphColoring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44EA9D31C237D220032FF44 /* GraphColoring.cpp */; };
 		F44EA9DB1C2387540032FF44 /* Evolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44EA9DA1C2387540032FF44 /* Evolution.cpp */; };
 		F4FDF5A31C1DC3E1002E288A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FDF5A21C1DC3E1002E288A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F44EA9D11C2379910032FF44 /* Chromosome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chromosome.cpp; sourceTree = "<group>"; };
+		F44EA9D31C237D220032FF44 /* GraphColoring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphColoring.cpp; sourceTree = "<group>"; };
+		F44EA9D51C237E860032FF44 /* GraphColoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GraphColoring.h; path = ../GraphColoring.h; sourceTree = "<group>"; };
 		F44EA9DA1C2387540032FF44 /* Evolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Evolution.cpp; sourceTree = "<group>"; };
-		F44EA9DC1C24775E0032FF44 /* GraphColoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphColoring.h; sourceTree = "<group>"; };
 		F4FDF59A1C1DC3E1002E288A /* Graph Coloring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graph Coloring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FDF59E1C1DC3E1002E288A /* Graph Coloring-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graph Coloring-Info.plist"; sourceTree = "<group>"; };
 		F4FDF5A21C1DC3E1002E288A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -53,11 +55,12 @@
 		F4FDF59C1C1DC3E1002E288A /* Graph Coloring */ = {
 			isa = PBXGroup;
 			children = (
-				F44EA9DC1C24775E0032FF44 /* GraphColoring.h */,
+				F44EA9D51C237E860032FF44 /* GraphColoring.h */,
 				F4FDF5B21C1DC5F7002E288A /* Chromosome.h */,
 				F44EA9D11C2379910032FF44 /* Chromosome.cpp */,
 				F4FDF5B31C1DC5F7002E288A /* Evolution.h */,
 				F44EA9DA1C2387540032FF44 /* Evolution.cpp */,
+				F44EA9D31C237D220032FF44 /* GraphColoring.cpp */,
 				F4FDF5A21C1DC3E1002E288A /* main.cpp */,
 				F4FDF59D1C1DC3E1002E288A /* Supporting Files */,
 			);
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44EA9D91C23869C0032FF44 /* GraphColoring.cpp in Sources */,
 				F44EA9D81C23868D0032FF44 /* Chromosome.cpp in Sources */,
 				F4FDF5A31C1DC3E1002E288A /* main.cpp in Sources */,
 				F44EA9DB1C2387540032FF44 /* Evolution.cpp in Sources */,
