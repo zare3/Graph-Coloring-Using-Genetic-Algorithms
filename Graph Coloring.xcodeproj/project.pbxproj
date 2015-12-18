@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4FDF5A01C1DC3E1002E288A /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4FDF59F1C1DC3E1002E288A /* ResourcePath.mm */; };
+		F44EA9D81C23868D0032FF44 /* Chromosome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44EA9D11C2379910032FF44 /* Chromosome.cpp */; };
+		F44EA9D91C23869C0032FF44 /* GraphColoring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44EA9D31C237D220032FF44 /* GraphColoring.cpp */; };
+		F44EA9DB1C2387540032FF44 /* Evolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44EA9DA1C2387540032FF44 /* Evolution.cpp */; };
 		F4FDF5A31C1DC3E1002E288A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4FDF5A21C1DC3E1002E288A /* main.cpp */; };
-		F4FDF5A61C1DC3E1002E288A /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5A51C1DC3E1002E288A /* cute_image.jpg */; };
-		F4FDF5A81C1DC3E1002E288A /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5A71C1DC3E1002E288A /* nice_music.ogg */; };
-		F4FDF5AA1C1DC3E1002E288A /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5A91C1DC3E1002E288A /* sansation.ttf */; };
-		F4FDF5AC1C1DC3E1002E288A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FDF5AB1C1DC3E1002E288A /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F44EA9D11C2379910032FF44 /* Chromosome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chromosome.cpp; sourceTree = "<group>"; };
+		F44EA9D31C237D220032FF44 /* GraphColoring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphColoring.cpp; sourceTree = "<group>"; };
+		F44EA9D51C237E860032FF44 /* GraphColoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GraphColoring.h; path = ../GraphColoring.h; sourceTree = "<group>"; };
+		F44EA9DA1C2387540032FF44 /* Evolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Evolution.cpp; sourceTree = "<group>"; };
 		F4FDF59A1C1DC3E1002E288A /* Graph Coloring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graph Coloring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FDF59E1C1DC3E1002E288A /* Graph Coloring-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graph Coloring-Info.plist"; sourceTree = "<group>"; };
-		F4FDF59F1C1DC3E1002E288A /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		F4FDF5A11C1DC3E1002E288A /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		F4FDF5A21C1DC3E1002E288A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F4FDF5A51C1DC3E1002E288A /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		F4FDF5A71C1DC3E1002E288A /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		F4FDF5A91C1DC3E1002E288A /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		F4FDF5AB1C1DC3E1002E288A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F4FDF5B21C1DC5F7002E288A /* Chromosome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chromosome.h; sourceTree = "<group>"; };
 		F4FDF5B31C1DC5F7002E288A /* Evolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evolution.h; sourceTree = "<group>"; };
-		F4FDF5B41C1DC62D002E288A /* GraphColoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphColoring.h; sourceTree = "<group>"; };
-		F4FDF5B51C1E00D9002E288A /* Visualisation Variables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Visualisation Variables.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +55,13 @@
 		F4FDF59C1C1DC3E1002E288A /* Graph Coloring */ = {
 			isa = PBXGroup;
 			children = (
-				F4FDF5B51C1E00D9002E288A /* Visualisation Variables.h */,
+				F44EA9D51C237E860032FF44 /* GraphColoring.h */,
 				F4FDF5B21C1DC5F7002E288A /* Chromosome.h */,
+				F44EA9D11C2379910032FF44 /* Chromosome.cpp */,
 				F4FDF5B31C1DC5F7002E288A /* Evolution.h */,
-				F4FDF5B41C1DC62D002E288A /* GraphColoring.h */,
-				F4FDF59F1C1DC3E1002E288A /* ResourcePath.mm */,
-				F4FDF5A11C1DC3E1002E288A /* ResourcePath.hpp */,
+				F44EA9DA1C2387540032FF44 /* Evolution.cpp */,
+				F44EA9D31C237D220032FF44 /* GraphColoring.cpp */,
 				F4FDF5A21C1DC3E1002E288A /* main.cpp */,
-				F4FDF5A41C1DC3E1002E288A /* Resources */,
 				F4FDF59D1C1DC3E1002E288A /* Supporting Files */,
 			);
 			path = "Graph Coloring";
@@ -80,17 +73,6 @@
 				F4FDF59E1C1DC3E1002E288A /* Graph Coloring-Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F4FDF5A41C1DC3E1002E288A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F4FDF5A51C1DC3E1002E288A /* cute_image.jpg */,
-				F4FDF5A71C1DC3E1002E288A /* nice_music.ogg */,
-				F4FDF5A91C1DC3E1002E288A /* sansation.ttf */,
-				F4FDF5AB1C1DC3E1002E288A /* icon.png */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4FDF5AC1C1DC3E1002E288A /* icon.png in Resources */,
-				F4FDF5AA1C1DC3E1002E288A /* sansation.ttf in Resources */,
-				F4FDF5A81C1DC3E1002E288A /* nice_music.ogg in Resources */,
-				F4FDF5A61C1DC3E1002E288A /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44EA9D91C23869C0032FF44 /* GraphColoring.cpp in Sources */,
+				F44EA9D81C23868D0032FF44 /* Chromosome.cpp in Sources */,
 				F4FDF5A31C1DC3E1002E288A /* main.cpp in Sources */,
-				F4FDF5A01C1DC3E1002E288A /* ResourcePath.mm in Sources */,
+				F44EA9DB1C2387540032FF44 /* Evolution.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +299,7 @@
 				F4FDF5B11C1DC3E1002E288A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
